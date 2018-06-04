@@ -13,7 +13,7 @@ puts "MY FAVORITE WORD IS #{favorite_word_in_all_caps.upcase}"
 
 # Challenge 3: Make all the letters of phrase lowercase using a built in Ruby method
 
-phrase = "IM NOT SHOUTING"
+phrase = "IM NOT SHOUTING".lowercase
 
 lowercased_phrase = phrase # Put a . after phrase and use a String method.
 
@@ -25,7 +25,7 @@ big_word = "supercalifragilisticexpialidocious"
 
 letter_count = big_word # Put a . after big_word and use a String method.
 
-puts "There are #{letter_count} in #{big_word}"
+puts "There are #{letter_count.length} in #{big_word}"
 
 # Challenge 5: Add "wow" and "mom" to big_word
 
